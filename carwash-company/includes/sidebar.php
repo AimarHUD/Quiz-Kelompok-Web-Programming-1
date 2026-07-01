@@ -15,12 +15,12 @@
             <a href="<?php echo BASE_URL; ?>/dashboard/index.php" class="list-group-item list-group-item-action border-0"><i class="bi bi-grid me-2"></i>Dashboard</a>
             <a href="<?php echo BASE_URL; ?>/dashboard/index.php" class="list-group-item list-group-item-action border-0"><i class="bi bi-speedometer2 me-2"></i>Dashboard Utama</a>
             <a href="<?php echo BASE_URL; ?>/berita/index.php" class="list-group-item list-group-item-action border-0"><i class="bi bi-newspaper me-2"></i>Kelola Berita</a>
-            <a href="<?php echo BASE_URL; ?>/dashboard/form.php" class="list-group-item list-group-item-action border-0"><i class="bi bi-ui-checks me-2"></i>Form</a>
-            <a href="<?php echo BASE_URL; ?>/dashboard/tabel.php" class="list-group-item list-group-item-action border-0"><i class="bi bi-table me-2"></i>Tabel</a>
+            <a href="<?php echo BASE_URL; ?>/form/index.php" class="list-group-item list-group-item-action border-0"><i class="bi bi-ui-checks me-2"></i>Form</a>
+            <a href="<?php echo BASE_URL; ?>/tabel/index.php" class="list-group-item list-group-item-action border-0"><i class="bi bi-table me-2"></i>Tabel</a>
             <a href="<?php echo BASE_URL; ?>/profile/index.php" class="list-group-item list-group-item-action border-0"><i class="bi bi-person-circle me-2"></i>Profile</a>
             <a href="<?php echo BASE_URL; ?>/dashboard/company_profile.php" class="list-group-item list-group-item-action border-0"><i class="bi bi-building me-2"></i>Company Profile</a>
             <?php if (($user['role'] ?? '') === 'Admin'): ?>
-                <a href="#" class="list-group-item list-group-item-action border-0"><i class="bi bi-shield-lock me-2"></i>Admin Panel</a>
+                <a href="<?php echo BASE_URL; ?>/admin/index.php" class="list-group-item list-group-item-action border-0"><i class="bi bi-shield-lock me-2"></i>Admin Panel</a>
             <?php endif; ?>
             <a href="<?php echo BASE_URL; ?>/login/logout.php" class="list-group-item list-group-item-action border-0 text-danger"><i class="bi bi-box-arrow-right me-2"></i>Logout</a>
         </div>
@@ -36,12 +36,12 @@
         <a href="<?php echo BASE_URL; ?>/dashboard/index.php" class="list-group-item list-group-item-action border-0"><i class="bi bi-grid me-2"></i>Dashboard</a>
         <a href="<?php echo BASE_URL; ?>/dashboard/index.php" class="list-group-item list-group-item-action border-0"><i class="bi bi-speedometer2 me-2"></i>Dashboard Utama</a>
         <a href="<?php echo BASE_URL; ?>/berita/index.php" class="list-group-item list-group-item-action border-0"><i class="bi bi-newspaper me-2"></i>Kelola Berita</a>
-        <a href="<?php echo BASE_URL; ?>/dashboard/form.php" class="list-group-item list-group-item-action border-0"><i class="bi bi-ui-checks me-2"></i>Form</a>
-        <a href="<?php echo BASE_URL; ?>/dashboard/tabel.php" class="list-group-item list-group-item-action border-0"><i class="bi bi-table me-2"></i>Tabel</a>
+        <a href="<?php echo BASE_URL; ?>/form/index.php" class="list-group-item list-group-item-action border-0"><i class="bi bi-ui-checks me-2"></i>Form</a>
+        <a href="<?php echo BASE_URL; ?>/tabel/index.php" class="list-group-item list-group-item-action border-0"><i class="bi bi-table me-2"></i>Tabel</a>
         <a href="<?php echo BASE_URL; ?>/profile/index.php" class="list-group-item list-group-item-action border-0"><i class="bi bi-person-circle me-2"></i>Profile</a>
         <a href="<?php echo BASE_URL; ?>/dashboard/company_profile.php" class="list-group-item list-group-item-action border-0"><i class="bi bi-building me-2"></i>Company Profile</a>
         <?php if (($user['role'] ?? '') === 'Admin'): ?>
-            <a href="#" class="list-group-item list-group-item-action border-0"><i class="bi bi-shield-lock me-2"></i>Admin Panel</a>
+            <a href="<?php echo BASE_URL; ?>/admin/index.php" class="list-group-item list-group-item-action border-0"><i class="bi bi-shield-lock me-2"></i>Admin Panel</a>
         <?php endif; ?>
         <a href="<?php echo BASE_URL; ?>/login/logout.php" class="list-group-item list-group-item-action border-0 text-danger"><i class="bi bi-box-arrow-right me-2"></i>Logout</a>
     </div>

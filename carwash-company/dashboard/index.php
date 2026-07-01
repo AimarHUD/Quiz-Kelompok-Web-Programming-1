@@ -109,8 +109,8 @@ $user = currentUser();
                             <h5 class="fw-bold mb-3">Quick Access Menu</h5>
                             <div class="quick-access d-grid gap-2">
                                 <a href="<?php echo BASE_URL; ?>/berita/index.php" class="btn btn-outline-primary"><i class="bi bi-newspaper me-2"></i>Kelola Berita</a>
-                                <a href="<?php echo BASE_URL; ?>/dashboard/form.php" class="btn btn-outline-primary"><i class="bi bi-ui-checks me-2"></i>Form</a>
-                                <a href="<?php echo BASE_URL; ?>/dashboard/tabel.php" class="btn btn-outline-primary"><i class="bi bi-table me-2"></i>Tabel</a>
+                                <a href="<?php echo BASE_URL; ?>/form/index.php" class="btn btn-outline-primary"><i class="bi bi-ui-checks me-2"></i>Form</a>
+                                <a href="<?php echo BASE_URL; ?>/tabel/index.php" class="btn btn-outline-primary"><i class="bi bi-table me-2"></i>Tabel</a>
                             </div>
                         </div>
                     </div>
