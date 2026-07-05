@@ -17,10 +17,10 @@
             <div class="collapse navbar-collapse" id="companyNavbar">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-uppercase">
                     <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="index.php#tentang">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
                     <li class="nav-item"><a class="nav-link" href="index.php#layanan">Our Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="galeri.php">Article</a></li>
-                    <li class="nav-item"><a class="nav-link" href="index.php#kontak">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
                 </ul>
                 <a class="btn btn-partnership rounded-pill px-4 py-2 d-flex align-items-center justify-content-center" href="index.php#kontak">PARTNERSHIP <i class="bi bi-chevron-down ms-2"></i></a>
             </div>

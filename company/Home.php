@@ -37,21 +37,6 @@
     </div>
 </section>
 
-<section id="tentang" class="section-shell">
-    <div class="container">
-        <div class="split-panel" data-aos="fade-up">
-            <div>
-                <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=900&q=80" alt="Tentang kami">
-            </div>
-            <div class="info-card p-4 p-lg-5">
-                <h2 class="section-title">Tentang Kami</h2>
-                <p class="text-muted mb-3">CarWash Company adalah layanan pencucian mobil modern yang berkomitmen memberikan kualitas terbaik, kenyamanan, dan hasil bersih maksimal untuk setiap pelanggan.</p>
-                <p class="text-muted mb-0">Kami menggabungkan teknologi canggih, bahan ramah lingkungan, dan tim profesional agar kendaraan Anda selalu tampil prima, harum, dan siap menemani setiap aktivitas Anda.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
 <section id="feature" class="section-shell">
     <div class="container">
         <div class="text-center mb-5" data-aos="fade-up">
@@ -152,25 +137,3 @@
     </div>
 </section>
 
-<section id="kontak" class="section-shell">
-    <div class="container">
-        <div class="row g-4 align-items-start">
-            <div class="col-lg-6" data-aos="fade-right">
-                <div class="contact-card p-4 p-lg-5">
-                    <h2 class="section-title">Kontak Kami</h2>
-                    <p class="text-muted">Hubungi kami untuk reservasi atau pertanyaan lebih lanjut mengenai layanan terbaik kami.</p>
-                    <ul class="list-unstyled contact-list mt-4">
-                        <li><i class="bi bi-geo-alt-fill text-primary me-2"></i>Jl. Sudirman No. 123, Jakarta</li>
-                        <li><i class="bi bi-telephone-fill text-primary me-2"></i>+62 812-3456-7890</li>
-                        <li><i class="bi bi-envelope-fill text-primary me-2"></i>info@carwashcompany.com</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-6" data-aos="fade-left">
-                <div class="card border-0 p-3">
-                    <iframe src="https://www.google.com/maps?q=Jakarta&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
